@@ -1,0 +1,74 @@
+.boxmodel{
+  background-color: grey;
+  padding-top: 30px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 30px;
+  margin-top: 40px;
+  margin-left: 300px;
+  margin-right: 300px;
+  min-width: 500px;
+}
+body{
+  background-image: url(paravan-video.jpg);
+}
+h1{
+padding-left: 450px;
+padding-right: 500px;
+}
+
+mark{
+  background-color: lightblue;
+}
+
+.intro{
+font-size: 30px;
+}
+
+
+
+
+.balk p {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 5px solid #e7e7e7;
+    background-color: grey;
+}
+
+.balk a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.balk  a:hover:not(.active) {
+    background-color: lightblue;
+}
+
+.balk  a.active {
+    background-color: lightblue;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+th{
+  background-color: lightblue;
+}
+p.c{
+  text-align: center;
+  font-size: 35px;
+}
