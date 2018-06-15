@@ -15,6 +15,44 @@
     <a href="Interactief.html">Interactief</a>
   </p>
     <h1><mark>Rekenmachine</mark></h1>
+    <br><hr>
+    <form method="GET" action="">
+    <pre>
+      number 1 : <input type="text" name="one">
+      number 2 : <input type="text" name="two">
+      operations :
+      <input type="radio" name="operation" value="1">plus
+      <input type="radio" name="operation" value="2">min
+      <input type="radio" name="operation" value="3">keer
+      <input type="radio" name="operation" value="4">gedeeld door
+      
+      <input type="submit" name="press" value="total">
+      <input type="reset" name="delete" value="deleted">
+     </pre>
+     </form>
+     <hr><br>
+     resultaat : 
   </div>
 </body>
 </html>
+
+<?php
+if (isset($_GET['press']==1)) {
+    $n1 = $_GET['one'];
+    $n1 = $_GET['two'];
+
+    if (isset($_GET['operation']==1)) {
+        echo "resultaat van plus = ". ($n1+$n2) ;
+    }
+    elseiF (isset($_GET['operation']==2))
+        echo "resultaat van min = ". ($n1-$n2) ;
+    }
+    elseiF (isset($_GET['operation']==3))
+        echo "resultaat van keer = ". ($n1*$n2) ;
+    }
+    elseiF (isset($_GET['operation']==4))
+        echo "resultaat van delen door = ". ($n1/$n2)
+    }
+}
+?>
+
