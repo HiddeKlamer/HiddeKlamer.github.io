@@ -10,7 +10,7 @@
   <div class="boxmodel">
   <p class="balk">
     <a href="index.html">Home</a>
-    <a class="active" href="Rekenmachine.html">Rekenmachine</a>
+    <a class="active" href="Rekenmachine.php">Rekenmachine</a>
     <a href="Weer.html">Weer</a>
     <a href="Interactief.html">Interactief</a>
   </p>
